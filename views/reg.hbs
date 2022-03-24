@@ -1,0 +1,21 @@
+
+<h1>{{message}}</h1>
+<div class="container" id="reg">
+<form action="/users/registration" method="post" id="regForm">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email адрес</label>
+    <input type="email" class="form-control" placeholder="email" name="email">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Имя</label>
+    <input type="text" class="form-control" placeholder="name" name="name">
+  </div>
+ <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Пароль</label>
+    <input type="password" class="form-control" placeholder="password" name="password">
+  </div>
+    <br>
+  <button type="submit" class="btn btn-dark" id="regbtn">Регистрация</button>
+</form>
+</div>
+<script src="/js/reg.js" defer></script>

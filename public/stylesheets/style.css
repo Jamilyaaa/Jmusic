@@ -1,0 +1,37 @@
+
+body {
+  background-image: url('https://oir.mobi/uploads/posts/2021-03/1616430488_52-p-krasivii-muzikalnii-fon-58.jpg');
+  size: cover;
+  background-attachment: fixed;
+  }
+  
+  #reg {
+    margin-top: 5%;
+    width: 300px;
+  }
+  #login {
+    margin-top: 5%;
+    width: 300px;
+  }
+
+  #search {
+    margin-top: 5%;
+    width: 1000px;
+  }
+#logbtn {
+  width: 275px !important;
+  background: rgb(0,11,1) !important;
+  background: linear-gradient(90deg, rgba(0,11,1,0.8743872549019608) 55%, rgba(36,85,5,1) 85%, rgba(34,121,9,1) 100%) !important;
+}
+
+#regbtn {
+  width: 275px !important;
+  background: rgb(0,11,1) !important;
+  background: linear-gradient(90deg, rgba(0,11,1,0.8743872549019608) 55%, rgba(36,85,5,1) 85%, rgba(34,121,9,1) 100%) !important;
+}
+
+#searchbtn {
+  width: 250px !important;
+  background: rgb(0,11,1) !important;
+  background: linear-gradient(90deg, rgba(0,11,1,0.8743872549019608) 55%, rgba(36,85,5,1) 85%, rgba(34,121,9,1) 100%) !important;
+}
