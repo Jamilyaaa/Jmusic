@@ -35,3 +35,25 @@ body {
   background: rgb(0,11,1) !important;
   background: linear-gradient(90deg, rgba(0,11,1,0.8743872549019608) 55%, rgba(36,85,5,1) 85%, rgba(34,121,9,1) 100%) !important;
 }
+
+#lyrics {
+  margin-top: 5%;
+  background: rgb(0,11,1) !important;
+  background: linear-gradient(90deg, rgba(0,11,1,0.8743872549019608) 55%, rgba(36,85,5,1) 85%, rgba(34,121,9,1) 100%) !important;
+  text-align: center;
+  color: white;
+  
+}
+
+#box {
+  display: flex;
+  justify-content: center;
+}
+
+#player {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 600px;
+  margin-top: 2%;
+}
